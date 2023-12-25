@@ -4,7 +4,8 @@
   "description": "Landing page fpor the project",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "compile:sass-w": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Hanna",
   "license": "ISC",
